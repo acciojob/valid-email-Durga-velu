@@ -5,7 +5,7 @@ function validEmail(str) {
 	if(str===emailPattern){
 		return true
 	}
-
+		
 	else{
 		return false
 	}
@@ -13,5 +13,5 @@ function validEmail(str) {
 }
 
 // Do not change the code below.
-const str = pompt("Enter an email address.");
-alrt(validEmail(str));
+const str = prompt("Enter an email address.");
+alert(validEmail(str));
